@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Ofertas Black Friday 2021</title>
+        
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/style.css">
+
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <h1>BLACK FRIDAY</h1>
+                <h2>2021</h2>
+            </div>
+
+            <div class="div-formulario">
+                <h3>Inscreva-se e garanta os descontos da Black Friday antes da hora!</h3>
+                <form>
+                    <label for="nomesobrenome">Nome Completo</label>
+                    <input type="text" id="nomesobrenome" class="input-padrao" required>
+                    
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" class="input-padrao" placeholder="meuemail@testealura.com.br" required>
+
+                    <p class="aviso">Ao preencher o formulário, você está autorizando o envio dos nossos e-mails com as promoções antecipadas da nossa Black Friday.</p>
+                    <input type="submit" onclick="save()" value="Cadastrar E-mail" class="enviar">
+                </form>
+            </div>
+
+            <div class="contagem">
+                <p id="dias">Faltam dias para a nossa Black Friday</p>
+            </div>
+        </header>
+        <main id="bg">
+            <ul class="beneficios">
+                <li>
+                    <img src="./imagens/caixas.png">
+                    <p class="descricao-beneficios">Teremos mais de 10.000 produtos das mais diversas categorias!!!</p>
+                </li>
+
+                <li>
+                    <img src="./imagens/desconto.png">
+                    <p class="descricao-beneficios">Teremos descontos de até 70% nos produtos</p>
+                </li>
+
+                <li>
+                    <img src="./imagens/entrega.png">
+                    <p class="descricao-beneficios">A entrega será GRATIS para todo o BRASIL e acontecerá com prazos RECORDES</p>
+                </li>
+            </ul>
+        </main>
+        <footer>
+            <p class="copyright">&copy; Desenvolvido por Caio Sant'Ana da Silva - Desafio Hiring Coders #2</p>
+        </footer>
+    </body>
+</html>

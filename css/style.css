@@ -1,0 +1,108 @@
+.logo {
+    position: absolute;
+    left: 25%;
+    top: 10%;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+
+header {
+    padding: 300px 0;
+    background: url(../imagens/bg.jpg);
+}
+
+.div-formulario {
+    position: absolute;
+    right: 25%;
+    top: 10%;
+    background: white;
+    padding: 0px 0px 30px 20px;
+    border-radius: 8px;
+}
+
+h3 {
+    margin: 10px 0px 18px 0px;
+    width: 500px;
+    text-align: center;
+    font-size: 30px;
+    word-wrap: break-word;
+    color: #353839;
+    font-weight: bolder;
+}
+
+form {
+    width: 500px;
+}
+
+label {
+    font-size: 19px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 5px 0px 25px 0px;
+    padding: 15px 0px 15px 6px;
+    width: 96.5%;
+    font-size: 20px;
+}
+
+.aviso {
+    word-wrap: break-word;
+    color: darkgray;
+}
+
+.enviar {
+    width: 97%;
+    position: relative;
+    padding: 20px 0px;
+    margin-top: 10px;
+    background: red;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.contagem {
+    color: white;
+    position: relative;
+    left: 24%;
+    word-wrap: break-word;
+    font-size: 28px;
+    width: 20%;
+    text-align: center;
+}
+
+main {
+    padding: 80px 0;
+    background: url(../imagens/bg3.jpg);
+}
+
+.beneficios li {
+    display: inline-block;
+    text-align: center;
+    width: 22%;
+    vertical-align: top;
+    margin: 0 0 0 150px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+img {
+    width: 25%;
+    margin-bottom: 30px;
+}
+
+
+footer {
+    text-align: center;
+    background: url(../imagens/bg.jpg);
+    padding: 30px 0;
+}
+
+.copyright {
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+}
