@@ -7,9 +7,9 @@
     text-align: center;
 }
 
-header {
+#topo {
     padding: 300px 0;
-    background: url(../imagens/bg.jpg);
+    background: url(../assets/bg.jpg);
 }
 
 .div-formulario {
@@ -75,9 +75,9 @@ label {
     text-align: center;
 }
 
-main {
+#bg {
     padding: 80px 0;
-    background: url(../imagens/bg3.jpg);
+    background: url(../assets/bg3.jpg);
 }
 
 .beneficios li {
@@ -98,7 +98,7 @@ img {
 
 footer {
     text-align: center;
-    background: url(../imagens/bg.jpg);
+    background: url(../assets/bg.jpg);
     padding: 30px 0;
 }
 
