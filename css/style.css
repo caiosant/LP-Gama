@@ -1,6 +1,10 @@
+body {
+    font-family: 'Barlow', sans-serif;
+}
+
 .logo {
     position: absolute;
-    left: 25%;
+    left: 27%;
     top: 10%;
     color: white;
     font-size: 45px;
@@ -88,6 +92,7 @@ label {
     margin: 0 0 0 150px;
     padding: 10px 10px;
     box-sizing: border-box;
+    color: white;
 }
 
 img {
